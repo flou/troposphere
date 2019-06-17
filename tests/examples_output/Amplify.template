@@ -1,0 +1,17 @@
+{
+    "Resources": {
+        "App": {
+            "Properties": {
+                "Name": "demo-application",
+                "Repository": "https://github.com/acme/demo-app",
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "DemoApp"
+                    }
+                ]
+            },
+            "Type": "AWS::Amplify::App"
+        }
+    }
+}
